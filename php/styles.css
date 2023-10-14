@@ -1,0 +1,100 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/b.jpeg');
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color:#080808;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #ecf1f2;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: auto; 
+    
+  }
+  .name{
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .head{
+    text-align: center;
+    margin-top: 5%;
+  
+  }
+  .position{
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .salary{
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  #head{
+    margin: 15px;
+  }
+  .button{
+    margin-left: 10%;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30%;
+  }
+  .email{
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .hours{
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .gender{
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .age{
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  
+main {
+  flex: 1;
+}
+  
